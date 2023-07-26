@@ -8,7 +8,7 @@ const axios = require('axios');
 const mongoose = require('mongoose');
 const Redis = require('ioredis');
 
-const { getStoredNumbers } = require('./db/redis');
+const { getStoredNumbers } = require('./redis');
 
 require('dotenv').config();
 
